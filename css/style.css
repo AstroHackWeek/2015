@@ -1159,7 +1159,9 @@
                                                         url('images/bgbl.svg') bottom left no-repeat,
                                                         url('images/bgbl.svg') bottom left no-repeat,
                                                         url('images/overlay.png'),
-                                                        linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+                                                        /*linear-gradient(45deg, #b39c68, #a56365, #412e4c);*/
+							/*linear-gradient(45deg, #55799b, #424055, #131a44);*/
+							linear-gradient(45deg, #9e704e, #424055, #131a44);
                         }
 
                         .main > .content.style2
