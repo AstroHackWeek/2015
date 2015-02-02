@@ -532,6 +532,78 @@
                                 }
 
 
+
+
+/* Feature Image */
+
+                .feature-image
+                {
+                        display: inline-block;
+                        position: relative;
+                        padding-bottom: 0.1em;
+                        margin-bottom: 0.1em;
+                        cursor: default;
+                }
+
+                        .feature-image .image
+                        {
+                                display: inline-block;
+                                width: 6em;
+                                height: 6em;
+                                /*font-size: 4.5em;*/
+                                border-radius: 100%;
+                                box-shadow: inset 0 0 0 1px #666;
+                                color: #666;
+                        }
+
+                        /* .feature-image:before
+                        {
+                                content: '';
+                                background: #666;
+                                position: absolute;
+                                bottom: 0;
+                                left: 20%;
+                                margin-left: -0.325em;
+                                width: 0.65em;
+                                height: 0.65em;
+                                display: block;
+                                border-radius: 100%;
+                        }
+			
+                        .feature-image:after
+                        {
+                                content: '';
+                                position: absolute;
+                                left: 20%;
+                                bottom: 0.65em;
+                                width: 1px;
+                                height: 0.35em;
+                                background: #666;
+                                margin-left: -0.5px;
+                        }*/
+                        .dark .feature-image
+                        {
+                        }
+
+                                .dark .feature-image .image
+                                {
+                                        background: rgba(255,255,255,0.15);
+                                        box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
+                                        color: #fff;
+                                }
+
+                                .dark .feature-image:before
+                                {
+                                        background: rgba(255,255,255,0.5);
+                                }
+
+                                .dark .feature-mage:after
+                                {
+                                        background: rgba(255,255,255,0.5);
+                                }
+
+
+
         /* Dark */
 
                 .dark
