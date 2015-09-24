@@ -161,6 +161,7 @@
 	}
 
 	header.special {
+                margin-top: 3em;
 		margin-bottom: 5em;
 		padding-top: 7em;
 		position: relative;
